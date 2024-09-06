@@ -3,7 +3,7 @@ kind: GrafanaDashboard
 metadata:
   name: kubernetes-views-global
 spec:
-  Folder: "kubernetes"
+  folder: "kubernetes"
   datasources:
     - inputName: "DS_PROMETHEUS"
       datasourceName: "VictoriaMetrics"
